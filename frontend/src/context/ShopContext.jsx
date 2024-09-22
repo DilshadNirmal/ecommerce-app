@@ -1,10 +1,10 @@
-import { createContext, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 // import { products } from "../assets/frontend_assets/assets";
 import { toast } from "react-toastify";
 import axios from "axios"
 import {useNavigate} from "react-router-dom"
 
-export const ShopContext = createContext();
+import  ShopContext  from "./ShopCont";
 
 const ShopContextProvider = (props) => {
   const currency = "$";
@@ -75,7 +75,7 @@ const ShopContextProvider = (props) => {
 
     if (token) {
         try {
-            await axios.post(`${backendUrl}/api/cart/update`, {itemId, size, quantity}, {headers: {token: token}})
+            await axios.post(`${backendUrl}/api/cart/update`, {itemId, size, quantity}, {headers: {token}})
             toast.success("product quantity updated successfully")
 
         } catch (error) {
@@ -101,7 +101,7 @@ const ShopContextProvider = (props) => {
     return totalAmount;
   };
 
-  const getProductsData = async () =>{
+  const getProductsData = async () => {
     try {
         const response = await axios.get(`${backendUrl}/api/products/list`)
         if (response.data.success) {
@@ -120,7 +120,7 @@ const ShopContextProvider = (props) => {
     try {
         const response = await axios.post(`${backendUrl}/api/cart/get`, {}, {headers: {token}})
         if (response.data.success) {
-            setCartItems(response.data.cartItems)
+            setCartItems(response.data.cartData)
         }
 
     } catch (error) {
@@ -156,8 +156,8 @@ const ShopContextProvider = (props) => {
     getCartAmount,
     navigate,
     backendUrl,
-    token,
     setToken,
+    token,
     // Add more context values as needed...
   };
 
