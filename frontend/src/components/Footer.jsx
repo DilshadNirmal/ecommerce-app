@@ -23,21 +23,21 @@ const Footer = () => {
               </li>
             <li>
               <NavLink
-                          to="/collection"
+                          to="/about"
                           className="flex flex-col items-center gap-1"
                         >
               About Us
               </NavLink>
               </li>
             <li>
-              <NavLink to="/about" className="flex flex-col items-center gap-1">
+              {/* <NavLink to="/about" className="flex flex-col items-center gap-1"> */}
               Delivery
-              </NavLink>
+              {/* </NavLink> */}
               </li>
             <li>
-              <NavLink to="/contact" className="flex flex-col items-center gap-1">
+              {/* <NavLink to="/contact" className="flex flex-col items-center gap-1"> */}
               Privacy Policy
-             </NavLink>
+             {/* </NavLink> */}
               </li>
           </ul>
         </div>
