@@ -17,28 +17,30 @@ const Footer = () => {
           <p className="text-xl font-medium mb-5"> COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>
-              <NavLink to="/" className="flex flex-col items-center gap-1">
+              <NavLink to="/" 
+              // className="flex flex-col items-center gap-1"
+              >
               Home
               </NavLink>
               </li>
             <li>
               <NavLink
                           to="/about"
-                          className="flex flex-col items-center gap-1"
+                          // className="flex flex-col items-center gap-1"
                         >
               About Us
               </NavLink>
               </li>
-            <li>
-              {/* <NavLink to="/about" className="flex flex-col items-center gap-1"> */}
+            {/* <li>
+               <NavLink to="/about" className="flex flex-col items-center gap-1"> 
               Delivery
-              {/* </NavLink> */}
+               </NavLink> 
               </li>
             <li>
-              {/* <NavLink to="/contact" className="flex flex-col items-center gap-1"> */}
-              Privacy Policy
-             {/* </NavLink> */}
-              </li>
+              <NavLink to="/contact" className="flex flex-col items-center gap-1">
+              Privacy Polic
+             </NavLink> 
+              </li> */}
           </ul>
         </div>
 
