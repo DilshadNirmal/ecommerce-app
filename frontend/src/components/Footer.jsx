@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import { assets } from "../assets/frontend_assets/assets";
 
 const Footer = () => {
@@ -14,10 +16,29 @@ const Footer = () => {
         <div className="">
           <p className="text-xl font-medium mb-5"> COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Delivery</li>
-            <li>Privacy Policy</li>
+            <li>
+              <NavLink to="/" className="flex flex-col items-center gap-1">
+              Home
+              </NavLink>
+              </li>
+            <li>
+              <NavLink
+                          to="/collection"
+                          className="flex flex-col items-center gap-1"
+                        >
+              About Us
+              </NavLink>
+              </li>
+            <li>
+              <NavLink to="/about" className="flex flex-col items-center gap-1">
+              Delivery
+              </NavLink>
+              </li>
+            <li>
+              <NavLink to="/contact" className="flex flex-col items-center gap-1">
+              Privacy Policy
+             </NavLink>
+              </li>
           </ul>
         </div>
 
