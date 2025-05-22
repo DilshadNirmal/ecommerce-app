@@ -7,10 +7,7 @@ const Footer = () => {
         <div className="">
           <img src={assets.logo} alt="" className="mb-5 w-32" />
           <p className="w-full md:w-2/3 text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
-            numquam quis temporibus laudantium ipsam eaque tempora, blanditiis
-            possimus vel autem quos corrupti nihil facilis voluptas iure
-            accusantium saepe. Assumenda, modi?
+            Inspired by genius, crafted for elegance. At Davinci, we blend innovation with timeless style to bring you collections that redefine everyday living. Discover products that speak of art, precision, and bold individuality — because you deserve nothing less than a masterpiece.
           </p>
         </div>
 
@@ -27,8 +24,8 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5">Get In Touch</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <li>+1-21-2-456-7890</li>
-            <li>contact@foreveryou.com</li>
+            <li>+91 8072058274</li>
+            <li>davinciapparelz@gmail.com</li>
           </ul>
         </div>
       </div>
@@ -36,7 +33,7 @@ const Footer = () => {
       <div className="">
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024@ forever.com - All Rights Reserved
+          Copyright 2024@ store-davinci.vercel.app - All Rights Reserved
         </p>
       </div>
     </div>

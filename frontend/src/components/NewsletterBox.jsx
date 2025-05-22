@@ -9,8 +9,7 @@ const NewsletterBox = () => {
         Subscribe Now & Get 20% Off
       </p>
       <p className="text-gray-400 mt-3">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-        officiis deleniti unde quo?
+        Join the DaVinci Circle and unlock exclusive deals, fresh arrivals, and timeless designs - straight to your inbox.
       </p>
 
       <form onSubmit={onSubmitHandler} className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3">

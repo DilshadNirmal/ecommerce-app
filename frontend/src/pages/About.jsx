@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <div className="text-3xl text-center pt-8 border-t">
-        <Title text1={`ABOUT`} text2={`US`} />
+        <Title text1={`Welcome to`} text2={`DaVinci`} />
       </div>
 
       <div className="my-10 flex flex-col md:flex-row gap-16">
@@ -17,23 +17,14 @@ const About = () => {
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p className="">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Exercitationem dolorem quaerat voluptates nobis corrupti hic
-            consequuntur, aliquid aspernatur, odio accusamus eaque molestias
-            ipsa quod consectetur soluta! Modi dolores pariatur unde!
+            Where innovation meets artistry. At Davinci, we believe everyday products should feel anything but ordinary. From sleek designs to smart functionality, each piece is curated with purpose and passion — because style and substance belong together.
           </p>
           <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dicta
-            beatae explicabo earum necessitatibus? Velit voluptate blanditiis
-            qui, reiciendis officiis voluptatem minus, praesentium ullam
-            voluptas sed expedita nemo consequuntur distinctio.
+            Explore a world where creativity is limitless. Whether it's fashion, lifestyle, or daily essentials, Davinci blends classic inspiration with modern edge to bring you pieces that stand out — and stand the test of time.
           </p>
           <b className="text-gray-800">Our Mission</b>
           <p className="">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet nam
-            perferendis, possimus minima et minus sunt odit libero
-            exercitationem. Reprehenderit commodi nobis earum? Ipsa ex cum
-            assumenda corporis consectetur quibusdam.
+            To empower self-expression through curated collections that reflect originality, elegance, and purpose. At Davinci, we’re not just selling products — we’re building a lifestyle inspired by vision, quality, and timeless design.
           </p>
         </div>
       </div>
