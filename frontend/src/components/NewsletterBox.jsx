@@ -6,7 +6,7 @@ const NewsletterBox = () => {
   return (
     <div className="text-center">
       <p className="text-2xl font-medium text-gray-800">
-        Subscribe Now & Get 20% Off
+        Subscribe Now!
       </p>
       <p className="text-gray-400 mt-3">
         Join the DaVinci Circle and unlock exclusive deals, fresh arrivals, and timeless designs - straight to your inbox.

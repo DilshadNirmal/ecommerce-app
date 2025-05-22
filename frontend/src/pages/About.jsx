@@ -36,17 +36,17 @@ const About = () => {
       <div className="flex flex-col md:flex-row text-sm mb-20">
         <div className="border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5">
             <b>Quality Assurance:</b>
-            <p className="text-gray-600">We meticulously select and vet each product to ensure it meets our stringent. Rem nesciunt laudantium quasi debitis.
+            <p className="text-gray-600">At Davinci, every product is handpicked and rigorously tested to meet our highest standards of craftsmanship and reliability. We believe in delivering excellence — because you deserve nothing less than the best.
             </p>
         </div>
         <div className="border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5">
             <b>Convenience:</b>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt laudantium quasi debitis. Facere quod po
+            <p className="text-gray-600">At Davinci, shopping is effortless. From intuitive browsing to smooth checkout and swift delivery, we've designed every step to save you time and keep things simple — so you can focus on what matters most.
             </p>
         </div>
         <div className="border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5">
             <b>Exceptional Customer Service:</b>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt laudantium quasi debitis. Facere quod
+            <p className="text-gray-600">At Davinci, you're not just a customer — you're part of our story. Our support team is always here to assist you with care, speed, and a personal touch to ensure your experience is nothing short of exceptional.
             </p>
         </div>
       </div>

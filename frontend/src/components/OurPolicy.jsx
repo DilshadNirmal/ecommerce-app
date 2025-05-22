@@ -7,13 +7,13 @@ const OurPolicy = () => {
 
         <div>
             <img src={assets.exchange_icon} alt="" className="w-12 m-auto mb-5" />
-            <p className="font-semibold">Easy Exchange Policy</p>
-            <p className="text-gray-400">we offer hassle free exchange policy</p>
+            <p className="font-semibold">Secure Payment</p>
+            <p className="text-gray-400">We ensure safe and encrypted checkout for worry-free shopping.</p>
         </div>
         <div>
             <img src={assets.quality_icon} alt="" className="w-12 m-auto mb-5" />
-            <p className="font-semibold">7 Days Return Policy</p>
-            <p className="text-gray-400">we provide 7 days free return policy</p>
+            <p className="font-semibold">3 Days Return Policy</p>
+            <p className="text-gray-400">we provide 3 days free return policy</p>
         </div>
         <div>
             <img src={assets.support_img} alt="" className="w-12 m-auto mb-5" />
