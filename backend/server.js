@@ -16,7 +16,7 @@ connectCloudinary()
 
 // middleware
 app.use(cors({
-    origin: "https://store-davinci.vercel.app/",
+    origin: "https://store-davinci.vercel.app",
     credentials: true
 }));
 app.use(express.json());
